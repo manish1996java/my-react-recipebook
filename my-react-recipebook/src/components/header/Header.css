@@ -1,0 +1,28 @@
+/* Row{
+    width: 100%;
+    height: 100%;
+} */
+#showcase {
+    position: relative;
+    background-image: url("https://cdn.wallpapersafari.com/87/77/ZRq35M.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+  }
+  
+  #showcase .primary-overlay {
+    background-color: rgba(0, 0, 0, 0.721);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  @media(max-width:768px){
+    #showcase{
+        min-height: 500px;
+    }
+    h1{
+        font-size: 4rem;
+    }
+}
